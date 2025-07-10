@@ -7,30 +7,36 @@
 </head>
 <body>
 
-  <div class="container">
-    <h2>Temperature Converter</h2>
-    <input type="number" id="tempInput" placeholder="Enter temperature" />
-    
-    <select id="unitSelect">
-      <option value="celsius">Celsius (°C)</option>
-      <option value="fahrenheit">Fahrenheit (°F)</option>
-      <option value="kelvin">Kelvin (K)</option>
-    </select>
-    
-    <button onclick="convertTemperature()">Convert</button>
-    
-    <div class="output" id="output"></div>
-  </div>
-  <footer class="footer">
-    <div class="footer-left">
-      © 2025 Jyoti Ranjan Rout. All rights reserved.
+  <div class="wrapper"> <!-- New wrapper for full-page layout -->
+
+    <div class="container">
+      <h2>Temperature Converter</h2>
+      <input type="number" id="tempInput" placeholder="Enter temperature" />
+      
+      <select id="unitSelect">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="kelvin">Kelvin (K)</option>
+      </select>
+      
+      <button onclick="convertTemperature()">Convert</button>
+      
+      <div class="output" id="output"></div>
     </div>
-    <div class="footer-right">
+
+    <!-- ✅ Footer stays outside .container but inside .wrapper -->
+    <footer class="footer">
+      <div class="footer-left">
+        © 2025 Jyoti Ranjan Rout. All rights reserved.
+      </div>
+      <div class="footer-right">
       <a href="https://github.com/jrout07" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/jrout07/" target="_blank">LinkedIn</a>
       <a href="https://leetcode.com/u/rout07/" target="_blank">LeetCode</a>
-    </div>
-  </footer>
+      </div>
+    </footer>
+
+  </div>
 
   <script src="script.js"></script>
 </body>
