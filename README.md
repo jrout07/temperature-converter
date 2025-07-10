@@ -19,4 +19,7 @@ This is a simple web application that allows users to convert temperatures betwe
 - HTML
 - CSS
 - JavaScript
+  
+## Live Demo
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://temperature-converter-theta-wheat.vercel.app/)
 
