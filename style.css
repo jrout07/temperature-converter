@@ -59,13 +59,12 @@ button:hover {
 }
 
 .footer a {
-  color: #007BFF;
+  color: #555;
   text-decoration: none;
   margin-left: 15px;
 }
 
 .footer a:hover {
-  text-decoration: underline;
   color: #0056b3;
 }
 
